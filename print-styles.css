@@ -1,0 +1,192 @@
+/* Professional Business Plan Print Styles */
+
+@page {
+    size: A4;
+    margin: 2cm;
+}
+
+@media print {
+    body {
+        width: 21cm;
+        margin: 0 auto;
+        font-size: 12pt;
+        line-height: 1.4;
+    }
+}
+
+/* Prevent page breaks */
+h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+.page-break {
+    page-break-before: always;
+}
+
+/* Keep content together */
+blockquote, table, pre, img {
+    page-break-inside: avoid;
+}
+
+/* Orphans and widows */
+p {
+    orphans: 3;
+    widows: 3;
+}
+
+/* Typography */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    margin: 30pt 0 20pt 0;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 25pt 0 15pt 0;
+    color: #2c3e50;
+}
+
+h3 {
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 20pt 0 10pt 0;
+    color: #34495e;
+}
+
+/* Blockquotes */
+blockquote {
+    background: #f8f9fa;
+    border-left: 4pt solid #007acc;
+    margin: 15pt 0;
+    padding: 10pt 15pt;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15pt 0;
+    font-size: 10pt;
+}
+
+th, td {
+    border: 1pt solid #ddd;
+    padding: 8pt;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15pt auto;
+}
+
+/* Lists */
+ul, ol {
+    margin: 10pt 0;
+    padding-left: 20pt;
+}
+
+li {
+    margin: 5pt 0;
+}
+
+/* Code */
+code {
+    background: #f4f4f4;
+    padding: 2pt 4pt;
+    border-radius: 3pt;
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 9pt;
+}
+
+/* Horizontal rules */
+hr {
+    border: none;
+    border-top: 1pt solid #ddd;
+    margin: 20pt 0;
+}
+
+/* Strong emphasis */
+strong, b {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Cover page styles */
+.cover-page {
+    text-align: center;
+    page-break-after: always;
+}
+
+.cover-title {
+    font-size: 32pt;
+    font-weight: bold;
+    margin: 50pt 0 20pt 0;
+    color: #1a1a1a;
+}
+
+.cover-subtitle {
+    font-size: 18pt;
+    color: #666;
+    margin: 20pt 0 40pt 0;
+}
+
+/* Section breaks */
+.section-break {
+    page-break-before: always;
+    margin-top: 0;
+}
+
+/* Financial tables */
+.financial-table {
+    font-size: 9pt;
+}
+
+.financial-table th {
+    background-color: #34495e;
+    color: white;
+}
+
+/* Hide web-only elements in print */
+@media print {
+    .no-print {
+        display: none;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    /* Ensure good contrast */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+}
