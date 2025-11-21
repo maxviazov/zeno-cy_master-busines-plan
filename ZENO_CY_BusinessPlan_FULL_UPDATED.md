@@ -904,7 +904,7 @@ ZENO CY впервые делает оба варианта возможными
 # **9. КОМАНДА ПРОЕКТА (THE TEAM)**
 
 <p align="center">
-  <img src="team-cover.png" alt="Team" width="680"/>
+  <img src="./team-cover.png" alt="Team" width="680"/>
 </p>
 
 ---
@@ -999,13 +999,13 @@ ZENO CY впервые делает оба варианта возможными
 ---
 
 <p align="center">
-  <img src="team-divider.png" alt="" width="400"/>
+  <img src="./team-divider.png" alt="" width="400"/>
 </p>
 
 # **10. ФИНАНСОВЫЙ ЗАПРОС И ИСПОЛЬЗОВАНИЕ СРЕДСТВ (FUNDING REQUEST & USE OF FUNDS)**
 
 <p align="center">
-  <img src="funding-cover.png" alt="Funding" width="680"/>
+  <img src="./funding-cover.png" alt="Funding" width="680"/>
 </p>
 
 ---
@@ -1037,7 +1037,7 @@ ZENO CY впервые делает оба варианта возможными
 # **10.3. Графическое распределение бюджета**
 
 <p align="center">
-  <img src="funding-chart.png" width="580" alt="Budget Allocation Pie Chart"/>
+  <img src="./funding-chart.png" width="580" alt="Budget Allocation Pie Chart"/>
 </p>
 
 ---
@@ -1084,13 +1084,13 @@ ZENO CY впервые делает оба варианта возможными
 ---
 
 <p align="center">
-  <img src="funding-divider.png" width="400" alt="divider"/>
+  <img src="./funding-divider.png" width="400" alt="divider"/>
 </p>
 
 # **11. ФИНАНСОВЫЕ ПРОГНОЗЫ НА 3 ГОДА (FINANCIAL PROJECTIONS)**
 
 <p align="center">
-  <img src="finance-cover.png" width="680" alt="Financial Projections"/>
+  <img src="./finance-cover.png" width="680" alt="Financial Projections"/>
 </p>
 
 ---
@@ -1138,7 +1138,7 @@ ZENO CY впервые делает оба варианта возможными
 # **11.4. График роста ARR (ARR Growth Chart)**
 
 <p align="center">
-  <img src="arr-chart.png" width="620" alt="ARR Growth"/>
+  <img src="./arr-chart.png" width="620" alt="ARR Growth"/>
 </p>
 
 ---
@@ -1165,7 +1165,7 @@ ZENO CY впервые делает оба варианта возможными
 # **11.6. Точка безубыточности (Break-Even)**
 
 <p align="center">
-  <img src="breakeven-chart.png" width="600" alt="Break Even"/>
+  <img src="./breakeven-chart.png" width="600" alt="Break Even"/>
 </p>
 
 ### **Zeno CY выходит на самоокупаемость в Q3 2026**,  
@@ -1183,7 +1183,7 @@ ZENO CY впервые делает оба варианта возможными
 ---
 
 <p align="center">
-  <img src="finance-divider.png" width="400"/>
+  <img src="./finance-divider.png" width="400"/>
 </p>
 
 # **12. ТЕХНОЛОГИЧЕСКАЯ АРХИТЕКТУРА (ARCHITECTURE OVERVIEW)**
@@ -1342,12 +1342,12 @@ Zeno CY создаёт новый класс FinTech-продуктов:
 
 работе в индустриях, где хранение данных запрещено (юристы, аудиторы).
 
-<p align="center"> <img src="architecture-divider.png" width="400"/> </p> ```
+<p align="center"> <img src="./architecture-divider.png" width="400"/> </p> ```
 
 # **13. БЕЗОПАСНОСТЬ И СООТВЕТСТВИЕ GDPR (SECURITY & GDPR COMPLIANCE)**
 
 <p align="center">
-  <img src="security-cover.png" width="680" alt="Security & GDPR"/>
+  <img src="./security-cover.png" width="680" alt="Security & GDPR"/>
 </p>
 
 ---
@@ -1507,13 +1507,13 @@ Zeno CY соответствует:
 ---
 
 <p align="center">
-  <img src="security-divider.png" width="400"/>
+  <img src="./security-divider.png" width="400"/>
 </p>
 
 # **14. ПОДДЕРЖИВАЕМЫЕ БАНКИ И ФОРМАТЫ (SUPPORTED BANKS & FORMATS)**
 
 <p align="center">
-  <img src="banks-cover.png" width="680" alt="Supported Banks"/>
+  <img src="./banks-cover.png" width="680" alt="Supported Banks"/>
 </p>
 
 ---
@@ -1533,7 +1533,7 @@ Zeno CY соответствует:
 
 ---
 
-# **14.2. Банки Кипра (полная поддержка)**
+# **14.2. Банки Кипра (планируется полная поддержка)**
 
 | Банк | Форматы | Статус | Примечание |
 |------|---------|--------|------------|
@@ -1544,7 +1544,7 @@ Zeno CY соответствует:
 | **AstroBank** | CSV | ✔ Поддерживается | Редкие форматы, унифицированы |
 
 <p align="center">
-  <img src="cyprus-banks.png" width="600" alt="Banks Cyprus"/>
+  <img src="./cyprus-banks.png" width="600" alt="Banks Cyprus"/>
 </p>
 
 ---
@@ -1602,7 +1602,7 @@ Zeno CY соответствует:
 | **ZIP-архивы** | ✔ Автоматическое разворачивание | Обработка нескольких CSV внутри ZIP |
 
 <p align="center">
-  <img src="formats.png" width="600" alt="Formats"/>
+  <img src="./formats.png" width="600" alt="Formats"/>
 </p>
 
 ---
@@ -1647,14 +1647,11 @@ Zeno CY соответствует:
 
 ---
 
-<p align="center">
-  <img src="banks-divider.png" width="400"/>
-</p>
 
 # **15. КОНКУРЕНТНАЯ ПОЗИЦИЯ (COMPETITIVE POSITIONING)**
 
 <p align="center">
-  <img src="competitive-cover.png" width="680" alt="Competitive Landscape"/>
+  <img src="./competitive-cover.png" width="680" alt="Competitive Landscape"/>
 </p>
 
 ---
@@ -1779,6 +1776,3 @@ Zeno CY занимает уникальную нишу:
 
 ---
 
-<p align="center">
-  <img src="competitive-divider.png" width="400"/>
-</p>
